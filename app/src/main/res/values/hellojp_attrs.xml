@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TabsIndicator">
+        <attr name="textColor" format="color|reference" />
+        <!-- tabs的item背景、选择器 -->
+        <attr name="textBackgroundResId" format="reference" />
+        <attr name="textSizeNormal" format="dimension|reference" />
+        <attr name="textSizeSelected" format="dimension|reference" />
+        <!-- tabs 下面的小滑块的 左右边距 -->
+        <attr name="lineMarginTab" format="dimension|reference" />
+        <attr name="lineColor" format="color|reference" />
+        <attr name="lineHeight" format="dimension|reference" />
+        <attr name="hasDivider" format="boolean" />
+        <!-- tabs内中间竖线，颜色 -->
+        <attr name="dividerColor" format="color|reference" />
+        <!-- tabs内中间竖线，宽度 -->
+        <attr name="dividerWidth" format="dimension|reference" />
+        <!-- tabs内中间竖线，上下间距 -->
+        <attr name="dividerVerticalMargin" format="dimension|reference" />
+        <attr name="linePosition">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

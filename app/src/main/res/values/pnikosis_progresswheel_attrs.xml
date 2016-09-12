@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <!-- 进度条的颜色，转圈圈的 那个 -->
+        <attr name="matProg_barColor" format="color" />
+        <!-- 背景的颜色，不转圈的圆形跑道 -->
+        <attr name="matProg_rimColor" format="color" />
+        <!-- 背景的宽度，不转圈的圆形跑道[2,5dip] -->
+        <attr name="matProg_rimWidth" format="dimension" />
+        <!-- 进度条转圈的速度，[1, 10] -->
+        <attr name="matProg_spinSpeed" format="float" />
+        <!-- 环形交叉的时间 [300,1000] -->
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <!-- 圆环的半径 -->
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+
+</resources>

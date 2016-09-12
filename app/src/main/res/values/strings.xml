@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">悬浮菜单布局</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="info_1">简书笔记是定位于写作者的一款写作软件，界面非常简洁，其最大的特色是支持 Markdown 功能，希望为作者制造出一种沉浸式的写作氛围，进而可以专注于写作。[3] 
+简书还支持写作模式，在简书·笔记中打开写作模式即可让撰写窗全屏化，再配合 Chrome 等浏览器的全屏浏览功能。简书·笔记能够达到与 Q10、MTW 之类的专心致志写作软件同样的效果。[4] </string>
+
+</resources>
